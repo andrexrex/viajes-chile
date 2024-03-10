@@ -2,7 +2,7 @@
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-//FUNCION PARA NAVBAR
+//FUNCION PARA CAMBIAR FONDO DE NAVBAR SEGUN POSICION EN LA PAGINA
 $(document).ready(function () {
     $(window).scroll(function () {
         // Check if scroll position passes top position of #box1
@@ -16,7 +16,7 @@ $(document).ready(function () {
     });
 });
 
-//FUNCION PARA SECCION "CONTACTO"
+//FUNCION PARA NOTIFICAR MENSAJE ENVIADO EN LA SECCION "CONTACTO"
 function sent(){
     alert('Mensaje enviado')
 }

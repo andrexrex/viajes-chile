@@ -17,7 +17,7 @@ html {
     padding: 0px;
 }
 
-/*HEADER*/
+/*HEADER NAVBAR*/
 header .navbar a, .texto {
     color: white;
     font-family: "Outfit", sans-serif;
@@ -47,12 +47,12 @@ header .navbar a:hover {
     font-size: 40px;
 }
 
-/*MAIN*/
+/*MAIN CAROUSEL*/
 #box1 {
     height: 100%;
 }
 
-/*SECTION*/
+/*SECTION "¿QUIENES SOMOS?"*/
 #box2 {
     margin-left: 5%;
     margin-right: 5%;
@@ -85,7 +85,7 @@ i {
     color: white;
 }
 
-/*ARTICLE*/
+/*ARTICLE "DESTACADOS"*/
 #box3 {
     margin-left: 5%;
     margin-right: 5%;
@@ -114,7 +114,7 @@ i {
     height: 200px;
 }
 
-/*SECTION*/
+/*SECTION "CONTACTO"*/
 #box4 {
     margin-left: 5%;
     margin-right: 5%;
